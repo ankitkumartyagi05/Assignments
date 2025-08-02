@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: url('https://drive.google.com/file/d/1xnhyInMAJ7J6cMDPTNlp9DOUmZ6aH9cZ/view?usp=sharing') no-repeat center center/cover;
+  background: url('background.jpg') no-repeat center center/cover;
   color: white;
   min-height: 100vh;
 }
