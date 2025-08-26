@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foodie Express</title>
+  <link rel="stylesheet" href="food.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Foodie Express</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#order">Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Delicious food delivered to your door</h2>
+    <p>Fresh. Fast. Flavorful.</p>
+    <br>
+    <a href="#menu" class="btn">View Menu</a>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item">
+        <img src="https://thumbs.dreamstime.com/b/home-big-classic-burger-wooden-table-close-up-120662126.jpg" alt="Burger">
+        <h3>Classic Burger</h3>
+        <p>$2.99</p>
+      </div>
+      <div class="item">
+        <img src="https://i.pinimg.com/originals/37/b6/60/37b660cb40988dda83c8d345f62c83da.jpg" alt="Pizza">
+        <h3>Margherita Pizza</h3>
+        <p>$1.90</p>
+      </div>
+      <div class="item">
+        <img src="https://pinchofyum.com/wp-content/uploads/Vegan-Vodka-Pasta-4-800x800.jpg" alt="Pasta">
+        <h3>Spaghetti Bolognese Pasta</h3>
+        <p>$1.99</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="order" class="order">
+    <h2>Place Your Order</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your name" required>
+
+      <label for="food">Choose Your Meal</label>
+      <select id="food">
+        <option>Classic Burger</option>
+        <option>Margherita Pizza</option>
+        <option>Spaghetti Bolognese Pasta</option>
+      </select>
+
+      <label for="address">Delivery Address</label>
+      <textarea id="address" placeholder="Your address" required></textarea>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <footer id="contact">
+    <p>© 2025 Foodie Express. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
